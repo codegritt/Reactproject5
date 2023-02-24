@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
+import Btn from './components/Btn';
+import ModeToggler from './components/ModeToggler';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header className="header" name="gokul" color="purple" className="App-header">
+        
+      </Header>
+
+      <Main name='john' age='23'></Main>
+
+      <Sidebar name='octa' color='black'></Sidebar>
+
+      <Btn></Btn>
+
+      <ModeToggler></ModeToggler>
     </div>
   );
 }
