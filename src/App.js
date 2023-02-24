@@ -9,7 +9,7 @@ import ModeToggler from './components/ModeToggler';
 function App() {
   return (
     <div className="App">
-      <Header className="header" name="gokul" color="purple" className="App-header">
+      <Header className="header" name="gokul" color="purple" >
         
       </Header>
 
